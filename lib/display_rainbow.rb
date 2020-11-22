@@ -1,5 +1,6 @@
-def display_rainbow# Write your #display_rainbow method here
-puts "R: #{display_rainbow[0]}, O: #{display_rainbow[1]}, Y: #{display_rainbow[2]}, G: #{display_rainbow[3]}, B: #{display_rainbow[4]}, I: #{display_rainbow[5]}, V: #{display_rainbow[6]}
+def display_rainbow(rainbow) # Write your #display_rainbow method here
+rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+puts "R: #{rainbow[0]}, O: #{rainbow[1]}, Y: #{rainbow[2]}, G: #{rainbow[3]}, B: #{rainbow[4]}, I: #{rainbow[5]}, V: #{_rainbow[6]}
 end
 end
 display_rainbow
